@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+body
+{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+img
+{
+    width: 20%;
+    margin: 10px 40% 0px 40%;
+}
+.login
+{
+    background-color: #F7F7F7;
+    width: 80%;
+    margin:15% 10%;
+    height: 70%;
+}
+.login-data
+{
+    background-color: rgb(235, 182, 142);
+    width: 60%;
+    margin: 3rem 20%;
+    height: auto;
+    padding: 2rem;
+}
+input
+{
+    display: block;
+    margin: 1rem auto 2rem auto;
+    padding: .6rem;
+    font-size: 2rem;
+    background: rgb(255,248,213);
+    background: linear-gradient(111deg, rgba(255,248,213,1) 0%, rgba(248,241,180,1) 69%, rgba(241,233,146,1) 100%, rgba(0,212,255,1) 100%);
+    border: .5px solid rgba(245, 231, 221, 0.548);
+    border-radius: 4px;
+    text-shadow: 1px 1px 1px rgb(56, 45, 30) ;
+}
+form
+{
+    margin-top: 2%;
+}
+form .login-btn
+{
+    color: rgb(255, 255, 255);
+    background: rgb(34,195,49);
+    background: linear-gradient(315deg, rgba(34,195,49,1) 0%, rgba(92,253,45,1) 100%);
+    padding: .5rem 1.5rem;
+}
+form .login-btn:hover
+{
+    box-shadow: 2px 2px 4px green;
+    transition-duration: 10ms;
+    background-color: white;
+}
+.forget-pass
+{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-size: 2rem;
+    padding: auto;
+}
+p
+{
+    font-size: 1.6rem;
+    padding-left: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(192, 97, 24);
+    font-size: 2rem;
+}
+.sign-up{
+    display: inline-block;
+    margin-bottom: 10px; 
+    
+}
+/* ############### SIGNUP PAGE ########## */
